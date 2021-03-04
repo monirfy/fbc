@@ -14,7 +14,11 @@ const News = props => {
   return (
     <Container className="py-5">
       <Row>
-        <Col lg={{ span: 6, offset: 3 }}>{articles.length && articles.map((article, index) => <Article key={index} article={article}></Article>)}</Col>
+        <Col lg={{ span: 6, offset: 3 }}>
+          {articles.map((articley, index) => (
+            <Article key={index} article={articley}></Article>
+          ))}
+        </Col>
       </Row>
     </Container>
   );
