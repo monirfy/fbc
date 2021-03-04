@@ -1,0 +1,9 @@
+.social-icon .nav-item a {
+  color: #ccc;
+  font-size: 50px;
+  transition: ease all 0.3s;
+}
+
+.social-icon .nav-item a:hover {
+  color: #fff;
+}

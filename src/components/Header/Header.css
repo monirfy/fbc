@@ -1,0 +1,6 @@
+.navbar-brand {
+  width: 100px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #f9f9f9 !important;
+}
